@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Google+Sans:opsz,wght@17..18,400..700&family=Mada:wght@200..900&family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    
+    
+    font-family: 'Poppins' sans-serif;
+}
+
+
+body{
+    background: #FFEFEF;
+    min-height: 100vh;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+
+
+.header{
+    display: flex;
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 -30px 50px #000;
+    transition: all .4s ease;
+    z-index: 1000;
+    background: white;
+    
+}
+
+.logo{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Mada", sans-serif;
+    color: #9A0000;
+    font-weight: 800;
+    vertical-align: middle;
+    transition: all .5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+span{
+    color: #000;
+    vertical-align: middle;
+    
+}
+
+.logo i{
+    vertical-align: middle;
+    font-size: 27px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    color: #9A0000;
+    font-family: "Google Sans", sans-serif;
+    font-size: 12px;
+    vertical-align: middle;
+    padding: 10px 8px;
+    border-radius: 4px;
+    transition: all .5s ease;
+
+}
+
+nav li a:active{
+    background: #9A0000;
+    color: #FFEFEF;
+    border-radius: 4px;
+    height: 20px;
+    width: 70px;
+}
+
+
+nav li a:hover{
+    background: #9A0000;
+    color: #FFEFEF;
+    border-radius: 4px;
+    height: 20px;
+    width: 70px;
+
+}
+
+
+section{
+    min-height: 100vh;
+   
+}
+
+.section{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem 55px;
+   z-index: 1;
+}
+
+.cont{
+   
+   
+}
+
+.cont h4{
+    font-size: 20px;
+    margin-bottom: -2rem;
+    font-family: "Google Sans", sans-serif;
+
+}
+
+.cont p{
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -1rem;
+    margin-bottom: 10px;
+}
+
+
+.cont h1{
+    color: #9A0000;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 105px;
+    
+}
+
+
+.btn{
+    margin: 18px 0;
+    display: inline-block;
+}
+.btn a{
+    display: inline-block;
+    color: white;
+    padding: 13px 25px;
+    text-decoration: none;
+    background: #9A0000;
+    border-radius: 30px;
+    margin: 5px 6px;
+    transition: 0.7s ease;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: 0 0 10px #9A0000;
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+    
+}
+
+.btn a:hover{
+    transform: translateY(-8px)scale(1.1);
+    box-shadow: 0 0 10px #9A0000,
+                0 0 40px #9A0000;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 23vw;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: -8rem;
+    transition: transform .5s ease-in-out;
+}
+
+.img img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.icon i{
+     color: #9A0000;
+     font-size: 25px;
+     display: none;
+}   
+
+
+#icon{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    padding: 0 10px 0 0;
+   
+    
+}
+
+#icon a{
+    column-gap: 1rem;
+    text-decoration: none;
+    font-size: 24px;
+    background: #9A0000;
+}
+
+#icon a i{
+    color: #9A0000;
+    margin: 10px 2rem 0 1rem;
+    outline: none;
+    padding: 10px;
+    list-style: none;
+    padding-bottom: 50px;
+    font-weight: 500;
+    transition: transform .5s ease;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#icon a i:hover{
+    transform: translateX(-8px);
+   
+
+    
+}
+
+
+.secone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 1rem 5rem 0 5rem ;
+    min-height: 100vh;
+}
+
+.carpng img{
+    width: 39vw;
+    transition: transform .7s ease-in-out;
+    margin-top: 19rem;
+}
+
+.carpng img:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-top: 10rem;
+    min-height: 100vh;
+    max-width: 45vw;
+}
+
+.about h1{
+    font-size: 50px;
+    color: #9A0000;
+    font-family: "Permanent Marker", cursive;
+    max-width: 45vw;
+}
+
+.about p{
+    font-size: 17px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    max-width: 45vw;
+}
+
+.sectwo{
+    min-height: 100vh;
+    margin-top: 16rem;
+    overflow: hidden;
+}
+
+
+.pur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.pur h1{
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    color: #9A0000;
+    margin-bottom:-9px;
+}
+
+.pur p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.carpop{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px 40px 40px;
+
+
+}
+
+#pre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+   /* border: 2px dashed #9A0000;*/
+    width: 100%;
+    max-width: 600px;
+    min-height: 280px;
+    margin-bottom: 20px;
+
+}
+
+#pre img{
+    max-width: 75%;
+    max-height: 180px;
+    object-fit: contain;
+    animation: popIn .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+#pre p{
+    background:#9A0000;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 16px;
+    margin-top: 10px;
+    animation: popIn .3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    
+} 
+
+
+.pick{
+    color:#9A0000;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.dcar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    width: 100%;
+
+}
+
+.bcar{
+    
+    max-width: 200px;
+    background: #f8e0e0;
+    border: 1px solid #9A0000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 150px;
+    transition: .3s ease;
+}
+
+.bcar:hover{
+    transform: translateY(-5px);
+    background: #f9dbdb;
+}
+
+.bcar:active{
+    transform: scale
+}
+
+.bcar img{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+
+@keyframes popIn {
+
+    0%{
+        transform: scale(0.7); opacity: 0;
+    }
+
+    100%{
+        transform: scale(1); opacity: 1;
+    }
+    
+}
+
+
+.secthree{
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0e0e0e;
+}
+
+.footer h2{
+    margin-bottom: 5px;
+}
+
+.footer h2{
+    color: #9A0000;
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.footer span{
+    color: white;
+}
+
+.footer h4{
+    color: #f8e0e0;
+    font-family: "Google Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: -5px;
+   
+    
+}
+
+hr{
+    width: 15%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -40px;
+    height: 4px;
+    background-color: #9A0000;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#dicon{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap : 4rem;
+    margin-top: 8px;
+}
+
+#dicon a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#dicon a i{
+    font-size: 29px;
+    margin-top: 8px;
+    margin-right: 2px;
+    vertical-align: middle;
+    color: #d70000;
+}
+
+#dicon a p{
+    font-size: 12px;
+    padding-top: -30px;
+    color: #dbd8d8;
+    font-family: "Google Sans", sans-serif;
+}
+
+.footer p{
+    color: #dbd8d8;
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: "Google Sans", sans-serif;
+}
